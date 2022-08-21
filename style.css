@@ -20,7 +20,7 @@ body > *{
 .hosting,
 .low-cost,
 .tech-support{
-    position: relative;
+    /* position: relative; */
 }
 
 a{
@@ -78,7 +78,7 @@ header{
 
 
 .hero > *{
-    height: 500px;
+    /* height: 500px; */
 }
 
 
@@ -91,9 +91,27 @@ section{
 .low-cost,
 .tech-support{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* flex-direction: column; */
+    justify-content: space-between;
     align-items: flex-start;
+    margin-top: 50px;
+}
+
+
+.low-cost{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.hero-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
 }
 
 .hero-heading{
@@ -121,12 +139,20 @@ section{
     color: white;
 }
 
+.hero-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .hero-img{
-    position: absolute;
-    right: 0px;
-    top: 0;
-    height: 100%;
-    z-index: -1;
+    /* position: absolute; */
+    /* right: 0px; */
+    /* top: 0; */
+    /* height: 100%; */
+    /* z-index: -1; */
+    width: 500px;
 }
 
 .hero-img-2{
@@ -197,12 +223,18 @@ section{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.25em;
     margin: 0px 25px;
+    justify-content: center;
 }
 
 .pricing{
     background: linear-gradient(to top , #0573ec, #08b3f6 );
     color: white;
     margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .pricing-heading{
@@ -223,7 +255,7 @@ section{
 
 .package-name{
     border-radius: 10px ;
-
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -445,11 +477,12 @@ section{
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
 .left-side{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -470,7 +503,7 @@ section{
 }
 
 .right-side{
-    width: 50%;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -489,7 +522,12 @@ section{
 
 
 
-
+.foo-menu-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
 
 footer{

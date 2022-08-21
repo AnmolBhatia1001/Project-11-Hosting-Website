@@ -1,0 +1,236 @@
+
+@media screen and (max-width:1024px) {
+    .hosting,
+    .low-cost,
+    .tech-support{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .hero-heading{
+        width: 550px;
+        height: 100%;
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .hero-sub-heading{
+        width: 400px;
+        height: 100%;
+        margin-top: 20px;
+        opacity: 75%;
+        text-align: center;
+        
+    }
+
+    .hero-btn{
+        margin-top: 25px;
+
+        font-size: 17.5px;
+
+        padding: 15px 30px;
+
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    section{
+        padding: 25px 25px;
+    }
+
+    .logo-img{
+        height: 40px;
+    }
+
+    .register-btn{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .hosting{
+        margin-top: 0px;
+    }
+
+    .logo{
+        height: 25px;
+    }
+
+    .foo-address img{
+        height: 30px;
+    }
+    
+    .foo-address p{
+        font-size: 12px;
+        width: 200px;
+        opacity: 75%;
+    }
+
+    footer h2{
+        font-size: 16px;
+    }
+
+    footer a{
+        font-size: 12px;
+    }
+
+    .social div a{
+        font-size: 10px;
+        margin: 5px 2px;
+        background-color: black;
+    }
+
+    .registration{
+        padding: 50px;
+    }
+
+    .testimonial{
+        height: 100%;
+        padding: 50px 25px;
+        background-color: #FDFEFF;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing-heading{
+        font-size: 40px;
+        text-align: center;
+        padding: 50px 25px;
+    }
+
+    .price-grid{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+
+    .price-package{
+        height: 500px;
+        width: 325px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    footer{
+        flex-direction: column;
+
+
+        justify-content: center;
+        align-items: flex-start;
+        margin: 50px 0px;
+    }
+    
+    footer div{
+        width: 100px;
+    }
+
+    .foo-address{
+        margin-bottom: 10px;
+        width: 250px;
+    }
+
+    .registration{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-side h1{
+        padding: 10px 0px;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .left-side p{
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .right-side{
+        align-items: center;
+    }
+
+    .right-side button{
+        padding: 10px 20px;
+        color: white;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .testimonal-2{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonal-card{
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    
+    .services-heading{
+        font-size: 30px;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .services-sub-heading{
+        font-size: 12.5px;
+        width: 50%;
+        padding: 10px ;
+        text-align: center;
+        align-self: center;
+    }
+
+    .services-flex{
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+        margin-top: 75px;
+    }
+
+    .price-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 1.25em;
+        margin: 0px 25px;
+       
+    }
+
+    .price-package{
+        height: 375px;
+        align-items: center;
+        width: 300px;
+    }
+
+}

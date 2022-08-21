@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Project 11</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaq.css">
 </head>
 <body>
     <header>
@@ -27,43 +28,65 @@
 
     <section class="hero">
         <div class="hosting">
-            <h1 class="hero-heading">
-                Great Website Start with Unlimited Hosting
-            </h1>
 
-            <p class="hero-sub-heading">
-                We provide the best offer of unlimited web hosting. The most complete features,affordable prices,and 24/7 technial support are at your disposal.
-            </p>
-
-            <button class="hero-btn">Choose Package</button>
-
-            <img src="./Hosting Landing Page/1.jpg" alt="hero-img" class="hero-img hero-img-1">
+            <!-- content -->
+            <div class="hero-content-container">
+                <h1 class="hero-heading">
+                    Great Website Start with Unlimited Hosting
+                </h1>
+    
+                <p class="hero-sub-heading">
+                    We provide the best offer of unlimited web hosting. The most complete features,affordable prices,and 24/7 technial support are at your disposal.
+                </p>
+                
+                <div>
+                    <button class="hero-btn">Choose Package</button>
+                </div>
+                
+            </div>
+            
+            <!-- image -->
+            <div class="hero-image-container">
+                <img src="./Hosting Landing Page/1.jpg" alt="hero-img" class="hero-img hero-img-1" >
+            </div>
+            
         </div>
         <div class="low-cost">
-            <h1 class="hero-heading">
-                We Provide The Best Quality With Low Cost
-            </h1>
-
-            <p class="hero-sub-heading">
-                You can have a ready-made website for only a small fee. complete features will facilitate the website creation process, from Auto-Install WordPress, cPanel, to free SSL.
-            </p>
-
-            <button class="hero-btn">Read More</button>
-
-            <img src="./Hosting Landing Page/2.jpg" alt="hero-img" class="hero-img hero-img-2">
+            <div class="hero-content-container">
+                <h1 class="hero-heading">
+                    We Provide The Best Quality With Low Cost
+                </h1>
+    
+                <p class="hero-sub-heading">
+                    You can have a ready-made website for only a small fee. complete features will facilitate the website creation process, from Auto-Install WordPress, cPanel, to free SSL.
+                </p>
+    
+                <button class="hero-btn">Read More</button>
+            </div>
+            
+            <div class="hero-image-container">
+                <img src="./Hosting Landing Page/2.jpg" alt="hero-img" class="hero-img hero-img-2">
+            </div>
+            
         </div>
         <div class="tech-support">
-            <h1 class="hero-heading">
-                Number 1 Technical Support in Indonesia
-            </h1>
+            <div class="hero-content-container">
+                <h1 class="hero-heading">
+                    Number 1 Technical Support in Indonesia
+                </h1>
+    
+                <p class="hero-sub-heading">
+                    Contact Niagahister's Customer Success Agent at any timewhen there is a problem with your website. No need to wait long, your problem will be resolved quickly and in real-time via intercom's live-chat.
+                </p>
+    
+                <button class="hero-btn">Read More</button>
+            </div>
+            
+            <div class="hero-image-container">
+                <img src="./Hosting Landing Page/3.jpg" alt="hero-img" class="hero-img hero-img-3">
+            </div>
 
-            <p class="hero-sub-heading">
-                Contact Niagahister's Customer Success Agent at any timewhen there is a problem with your website. No need to wait long, your problem will be resolved quickly and in real-time via intercom's live-chat.
-            </p>
-
-            <button class="hero-btn">Read More</button>
-
-            <img src="./Hosting Landing Page/3.jpg" alt="hero-img" class="hero-img hero-img-3">
+            
         </div>
     </section>
 
@@ -231,7 +254,10 @@
             <h1>Our Customer Love Us</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt non amet.</p>
         </div>
+
         <div class="testimonal-2">
+
+
             <div class="testimonal-card">
                 <div class="test-card-a">
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt non. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
@@ -311,39 +337,42 @@
             <p class="address-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat</p>
         </div>
 
-        <nav class="foo-menu">
-            <h2>Menu</h2>
-            <a href="#" class="menu-link">Home</a>
-            <a href="#" class="menu-link">Covid19</a>
-            <a href="#" class="menu-link">Vaccine Info</a>
-            <a href="#" class="menu-link">Contact US</a>
-        </nav>
-
-        <nav class="links">
-            <h2>Links</h2>
-            <a href="#" class="links">Partners</a>
-            <a href="#" class="links">Careers</a>
-            <a href="#" class="links">Press</a>
-            <a href="#" class="links">Community</a>
-        </nav>
-
-        <nav class="overview">
-            <h2>Overview</h2>
-            <a href="#" class="overview-link">Terms & Conditions</a>
-            <a href="#" class="overview-link">Privacy Policy</a>
-            <a href="#" class="overview-link">FAQ</a>
-        </nav>
-
-        <nav class="social">
-            <h2>Social Media</h2>
-            <div>
-                <a href="#" class="social-link">FB</a>
-                <a href="#" class="social-link">IG</a>
-                <a href="#" class="social-link">YT</a>
-                <a href="#" class="social-link">LI</a>
+        <div class="foo-menu-container">
+            <div class="foo-menu">
+                <h2>Menu</h2>
+                <a href="#" class="menu-link">Home</a>
+                <a href="#" class="menu-link">Covid19</a>
+                <a href="#" class="menu-link">Vaccine Info</a>
+                <a href="#" class="menu-link">Contact US</a>
             </div>
-            
-        </nav>
+    
+            <div class="links">
+                <h2>Links</h2>
+                <a href="#" class="links">Partners</a>
+                <a href="#" class="links">Careers</a>
+                <a href="#" class="links">Press</a>
+                <a href="#" class="links">Community</a>
+            </div>
+    
+            <div class="overview">
+                <h2>Overview</h2>
+                <a href="#" class="overview-link">Terms & Conditions</a>
+                <a href="#" class="overview-link">Privacy Policy</a>
+                <a href="#" class="overview-link">FAQ</a>
+            </div>
+    
+            <div class="social">
+                <h2>Social Media</h2>
+                <div>
+                    <a href="#" class="social-link">FB</a>
+                    <a href="#" class="social-link">IG</a>
+                    <a href="#" class="social-link">YT</a>
+                    <a href="#" class="social-link">LI</a>
+                </div>
+                
+            </div>
+        </div>
+        
     </footer>
 
 </body>
